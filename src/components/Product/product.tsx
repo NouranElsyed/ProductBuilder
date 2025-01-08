@@ -7,8 +7,8 @@ const Product = ({title,description, imgURL, price,author}:IProduct) => {
 
   return (
     <>
-        <div className="card border p-3 rounded-md m-2 flex flex-col w-3/4  md:w-full  justify-center items-center" >
-            <div className="self-center w-1/2 sm:w-2/3 md:w-full bg-black rounded-lg overflow-hidden">
+        <div className="card border p-3 rounded-md m-2 flex flex-col  md:w-full  justify-center items-center" >
+            <div className="self-center w-1/2 sm:w-2/3 lg:14/15 xl:9/10 bg-black rounded-lg overflow-hidden">
                 <Image imgUrl={imgURL} className="image min-w-full" alt={title}/>           
             </div>
             <p  className="font-bold my-3 text-xl lg:self-right"> {title}</p>
